@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @startup.name %>
+</p>
+
+<p>
+  <b>Logo path:</b>
+  <%= @startup.logo_path %>
+</p>
+
+
+<%= link_to 'Edit', edit_startup_path(@startup) %> |
+<%= link_to 'Back', startups_path %>

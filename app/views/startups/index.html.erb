@@ -1,0 +1,23 @@
+<h1>Listing startups</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Logo path</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @startups.each do |startup| %>
+  <tr>
+    <td><strong><%= startup.name %></strong></td>
+    <td><%= startup.logo_path %></td>
+  </tr>
+
+  <% startup.founders.each do |founder| %>
+    <tr><td>Founder:</td><td><%= founder.name %></td></tr>
+  <% end %>
+
+<% end %>
+</table>

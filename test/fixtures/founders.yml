@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  startup_id: 1
+  name: MyString
+  avatar_path: MyString
+
+two:
+  startup_id: 1
+  name: MyString
+  avatar_path: MyString
