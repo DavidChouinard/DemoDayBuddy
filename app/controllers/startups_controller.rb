@@ -10,6 +10,16 @@ class StartupsController < ApplicationController
     end
   end
 
+  def ping
+    @startup = Startup.find(params[:id])
+
+    render :nothing => true
+
+    #respond_to do |format|
+      #format.json { head :no_content }
+    #end
+  end
+
   # GET /startups/1
   # GET /startups/1.json
   def show
@@ -66,18 +76,6 @@ class StartupsController < ApplicationController
         format.html { render action: "edit" }
         format.json { render json: @startup.errors, status: :unprocessable_entity }
       end
-    end
-  end
-
-  # DELETE /startups/1
-  # DELETE /startups/1.json
-  def destroy
-    @startup = Startup.find(params[:id])
-    @startup.destroy
-
-    respond_to do |format|
-      format.html { redirect_to startups_url }
-      format.json { head :no_content }
     end
   end
 end

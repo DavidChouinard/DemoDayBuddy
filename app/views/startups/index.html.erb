@@ -7,6 +7,7 @@
   <img src="<%= startup.ceo_avatar_path %>" style="height: 16px;" />
   <em>Pitched by <%= startup.ceo_name %> at <%= startup.pitch_time.strftime("%-H:%M") %></em>
   <p><%= startup.pitch %></p>
+  <button type="button" data-startup-id="<%= startup.id %>">Ping startup</button>
   <br>
 <% end %>
 
