@@ -1,7 +1,11 @@
-<h2>Sign up</h2>
-
 <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>
+
+  <div><%= f.label :name %><br />
+  <%= f.email_field :name %></div>
+
+  <div><%= f.label :byline %> <em>eg. General Partner, ABC Capital</em><br />
+  <%= f.email_field :byline %></div>
 
   <div><%= f.label :email %><br />
   <%= f.email_field :email %></div>
@@ -16,3 +20,6 @@
 <% end %>
 
 <%= render "devise/shared/links" %>
+
+<br><br>
+<%= link_to "Continue without signing up", root_path %>
