@@ -7,16 +7,22 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Startup.destroy_all
-Founder.destroy_all
 
 Startup.create([
-  { name: 'Better Fit Technologies', founders: [
-    Founder.new({ name: 'Julia Winn' }),
-    Founder.new({ name: 'Benjamin "Zags" Zagorsky'})
-  ]},
-  { name: 'ImpulseSave', founders: [
-    Founder.new({ name: 'Phil Fremont-Smith' }),
-    Founder.new({ name: 'John Mileham' }),
-    Founder.new({ name: 'Anne Steinhaus' }),
-  ]}
+  { name: 'Better Fit Technologies',
+    pitch: 'BetterFit Technologies is committed to facilitating data-driven healthcare decisions for patients and providers. We\'re different because we consider the unique complexities of the individual, not just what\'s known about their drugs.',
+    email: 'julia@betterfit.com',
+    pitch_time: Time.new(2012, 11, 7, 13, 30),
+
+    ceo_name: 'Julia Winn',
+    ceo_avatar_path: 'assets/avatars/MyBetterFit_Julia.jpg',
+  },
+  { name: 'ImpulseSave',
+    pitch: 'ImpulseSave makes saving money just as impulsive and instantly gratifying as spending it.',
+    email: 'phil@impulsesave.com',
+    pitch_time: Time.new(2012, 11, 7, 14, 0),
+
+    ceo_name: 'Phil Fremont-Smith',
+    ceo_avatar_path: 'assets/avatars/ImpulseSave_Phil.jpg',
+  }
 ])

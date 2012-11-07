@@ -11,21 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121106150613) do
-
-  create_table "founders", :force => true do |t|
-    t.integer  "startup_id",  :null => false
-    t.string   "name",        :null => false
-    t.string   "avatar_path"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-  end
+ActiveRecord::Schema.define(:version => 20121106145655) do
 
   create_table "startups", :force => true do |t|
-    t.string   "name",       :null => false
-    t.string   "logo_path"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string   "name",            :null => false
+    t.text     "pitch"
+    t.string   "email",           :null => false
+    t.time     "pitch_time",      :null => false
+    t.string   "ceo_name"
+    t.string   "ceo_avatar_path"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
 end

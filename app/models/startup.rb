@@ -1,6 +1,4 @@
 class Startup < ActiveRecord::Base
-  attr_accessible :logo_path, :name
-  validates_presence_of :name
-
-  has_many :founders
+  attr_accessible :name, :pitch, :email, :pitch_time, :ceo_name, :ceo_avatar_path
+  validates_presence_of :name, :email, :pitch_time
 end
