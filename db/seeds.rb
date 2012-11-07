@@ -15,9 +15,9 @@ Startup.create([
     pitch_time: Time.new(2012, 11, 7, 13, 30),
 
     ceo_name: 'Julia Winn',
-    ceo_avatar_path: 'assets/avatars/MyBetterFit_Julia.jpg',
+    ceo_avatar_path: '/assets/betterfit.png',
   },
-  { name: 'ImpulseSave',
+  { name: 'Ovuline',
     pitch: 'ImpulseSave makes saving money just as impulsive and instantly gratifying as spending it.',
     email: 'chouichoui@me.com',
     pitch_time: Time.new(2012, 11, 7, 14, 0),

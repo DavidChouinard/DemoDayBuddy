@@ -1,15 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Reach.out</title>
+    <meta name="viewport" content="width=device-width,
+                                   initial-scale=1.0,
+                                   maximum-scale=1.0,
+                                   user-scalable-no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+  	<%= csrf_meta_tags %>
+        
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Ultra' rel='stylesheet' type='text/css'>
+
+  </head>
+
 <head>
-  <title>DemoDayBudy</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+  <title>Reach.out</title>
 </head>
+
 <body>
 
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
+<div>
+	<img src="/assets/ts4.png" id="logo" alt="Techstars">
+</div>
+
+ <p class="notice"><%= notice %></p>
+ <p class="alert"><%= alert %></p>
 
 <%= yield %>
 
