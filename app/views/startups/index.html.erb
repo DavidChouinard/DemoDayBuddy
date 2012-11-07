@@ -1,14 +1,20 @@
-<h1>All startups</h1>
-
-<br>
-
 <% @startups.each do |startup| %>
-  <h2><%= startup.name %></h2>
-  <img src="<%= startup.ceo_avatar_path %>" style="height: 16px;" />
-  <em>Pitched by <%= startup.ceo_name %> at <%= startup.pitch_time.strftime("%-H:%M") %></em>
-  <p><%= startup.pitch %></p>
-  <button type="button" data-startup-id="<%= startup.id %>">Ping startup</button>
-  <br>
-<% end %>
+  
+	<div class="box">
+		<div class="head">
+			<img class="avatar" src="<%= startup.ceo_avatar_path %>" width="50" height="50" class="avatar">
+			<div class="meta">
+				<h3><%= startup.name %></h3>
+				<p>Pitched by <span class="name"><%= startup.ceo_name %></span> at <span class="name"><%= startup.pitch_time.strftime("%-H:%M") %></span> </p>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+	    
+    <div class="company"><p><%= startup.pitch %></p></div>
+    
+    <p>
+  		<button class="btn btn-success" id="ping" type="button">reach out</button>
+		</p>
+	</div>
 
-</table>
+<% end %>
