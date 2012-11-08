@@ -16,10 +16,11 @@
 
     <div class="box-footer">
       <% if user_signed_in? and @pings.exists?(:startup_id => startup.id) %>
-        <button class="btn btn-success" type="button" disabled="disabled">✓ Contact details sent</button>
+        <button class="btn btn-success ping" type="button" disabled="disabled">Contact details sent ✓</button>
       <% else %>
-        <button class="btn btn-success" type="button" data-startup-id="<%= startup.id %>">Reach out</button>
+        <button class="btn btn-success ping" type="button" data-startup-id="<%= startup.id %>">Reach out</button>
       <% end %>
+      <button class="btn angel" type="button" data-startup-id="<%= startup.id %>">Follow</button>
       <!-- <p>or email <a href="mailto:<%= startup.ceo_email %>"><%= startup.ceo_email %></a></p> -->
     </div>
   </div>

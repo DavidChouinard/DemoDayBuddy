@@ -90,11 +90,9 @@ ul {
 .box-footer button {
   text-align: center;
   border-radius: 1px;
-  margin: 23px auto 0;
-  padding: 6px;
-  width: 225px;
   font-weight: 400;
   font-family: "lato", sans-serif;
+  margin-top: 23px;
 }
 
 
@@ -106,4 +104,36 @@ ul {
 footer {
   font-size: 12px;
   text-align: center;
+}
+
+.angel{
+	padding: 6px 35px 6px 14px;
+	margin-left: 7px;
+	background-image: url(/assets/angel3.png), -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+
+.angel:hover {
+	background-image: url(/assets/angel3.png);
+	background-color: #E8E8E8;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.angel:active {
+	background-image: url(/assets/angel3.png);
+	background-color: #E8E8E8;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.ping {
+	min-width: 150px;
+	padding: 6px;
+}
+
+#peace {
+ width: 18px;
 }
