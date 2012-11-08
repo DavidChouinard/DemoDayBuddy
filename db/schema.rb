@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121108180504) do
+ActiveRecord::Schema.define(:version => 20121108183606) do
 
   create_table "startups", :force => true do |t|
     t.string   "name",            :null => false

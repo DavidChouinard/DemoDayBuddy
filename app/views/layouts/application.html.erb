@@ -22,12 +22,14 @@
     </div>
 
     <% if notice %>
-      <div class="alert alert-error">
+      <div class="alert alert-success">
         <a href="#" class="close" data-dismiss="alert">×</a>
         <%= notice %>
       </div>
-    <% elseif alert %>
-      <div class="alert alert-success">
+    <% end %>
+
+    <% if alert %>
+      <div class="alert alert-error">
         <a href="#" class="close" data-dismiss="alert">×</a>
         <%= alert %>
       </div>

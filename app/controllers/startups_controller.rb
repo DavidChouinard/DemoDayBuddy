@@ -13,7 +13,18 @@ class StartupsController < ApplicationController
   def ping
     @startup = Startup.find(params[:id])
 
-    PingMailer.ping_startup(@startup).deliver
+    if user_signed_in?
+      puts "TESTING"
+    else
+      puts "logged out"
+    end
+
+    # Make sure the user hasn't already pinged that startup
+    unless UserPing.where(:startup_id => @startup.id, :user_id => current_user.id)
+      if UserPing.create(:startup_id => @startup.id, :user_id => current_user.id)
+        PingMailer.ping_startup(@startup).deliver
+      end
+    end
 
     render :nothing => true
   end
