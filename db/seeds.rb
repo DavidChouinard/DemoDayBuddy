@@ -10,11 +10,12 @@ Startup.destroy_all
 
 Startup.create([
   { name: 'Better Fit Technologies',
-    pitch: 'BetterFit Technologies is committed to facilitating data-driven healthcare decisions for patients and providers. We\'re different because we consider the unique complexities of the individual, not just what\'s known about their drugs.',
+    pitch: 'BetterFit Technologies is committed to facilitating data-driven healthcare decisions for patients and providers.',
     email: 'chouichoui@me.com',
     pitch_time: Time.new(2012, 11, 7, 13, 30),
 
     ceo_name: 'Julia Winn',
+    ceo_email: 'julia@betterfit.com',
     ceo_avatar_path: '/assets/betterfit.png',
   },
   { name: 'Ovuline',
@@ -23,6 +24,7 @@ Startup.create([
     pitch_time: Time.new(2012, 11, 7, 14, 0),
 
     ceo_name: 'Phil Fremont-Smith',
+    ceo_email: 'phil@impulsesave.com',
     ceo_avatar_path: 'assets/avatars/ImpulseSave_Phil.jpg',
   }
 ])

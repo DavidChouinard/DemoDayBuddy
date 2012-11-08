@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121107151127) do
+ActiveRecord::Schema.define(:version => 20121108180504) do
 
   create_table "startups", :force => true do |t|
     t.string   "name",            :null => false
@@ -22,6 +22,14 @@ ActiveRecord::Schema.define(:version => 20121107151127) do
     t.string   "ceo_avatar_path"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
+    t.string   "ceo_email"
+  end
+
+  create_table "user_pings", :force => true do |t|
+    t.integer  "user_id",    :null => false
+    t.integer  "startup_id", :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "users", :force => true do |t|
