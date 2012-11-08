@@ -9,6 +9,9 @@ gem 'pg'
 
 gem 'devise'
 
+gem 'omniauth'
+gem 'oauth2'
+gem "omniauth-angellist", :git => "git://github.com/railsjedi/omniauth-angellist.git"
 
 # Gems used only for assets and not required
 # in production environments by default.
