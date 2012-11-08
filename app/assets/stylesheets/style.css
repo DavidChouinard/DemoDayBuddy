@@ -1,6 +1,7 @@
 body {
   background-color: #F0F0F0;
   background-size: 100%;
+  font-family: "lato", sans-serif;
 }
 
 ul {
@@ -57,13 +58,11 @@ ul {
   text-align: left;
   margin-bottom: 0;
   line-height: 22px;
-  font-family: "lato" sans-serif;
 }
 
 .head p {
   font-size: 13px;
   color: #999;
-  font-family: "lato" sans-serif;
 }
 
 .avatar {
@@ -82,7 +81,6 @@ ul {
 
 .company p {
   margin: 7px 15px 10px 19px;
-  font-family: "lato" sans-serif;
 }
 
 
@@ -93,9 +91,10 @@ ul {
   text-align: center;
   border-radius: 1px;
   margin: 23px auto 0;
-  padding: 6px 91px 6px 91px;
-  font-family: "lato" sans-serif;
+  padding: 6px;
+  width: 225px;
   font-weight: 400;
+  font-family: "lato", sans-serif;
 }
 
 
@@ -108,4 +107,3 @@ footer {
   font-size: 12px;
   text-align: center;
 }
-
