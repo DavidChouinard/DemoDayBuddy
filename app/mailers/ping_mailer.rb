@@ -1,3 +1,3 @@
 class PingMailer < ActionMailer::Base
-  default from: "from@example.com"
+  default from: "demoday-noreply@techstars.com"
 end

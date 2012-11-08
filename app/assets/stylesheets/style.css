@@ -1,88 +1,88 @@
 body {
-	background-color: #F0F0F0;
-	background-size: 100%;
+  background-color: #F0F0F0;
+  background-size: 100%;
 }
 
 ul {
-	margin: 0;
-	list-style-type: none
+  margin: 0;
+  list-style-type: none
 }
 
 #logo {
-	display: block;
-	width: 65px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 21px 0px 10px 0px;
-	opacity: 0.51;
+  display: block;
+  width: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 21px 0px 10px 0px;
+  opacity: 0.51;
 }
 
 .box {
-				display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 94%;
-        border: 1px solid #ccc;
-        border-radius: 1px;
-        padding: 13px 0px 20px 0px;
-        position: relative;
-        border-top: 1px solid #ddd;
-        border-bottom: 1px solid #ccc;
-        background-image: -webkit-linear-gradient(white, #f8f8f8);
-        min-height: 100px;
-        margin-top: 10px;
-        /*box-shadow: 0 2px 5px rgba(182, 182, 182, 0.35);*/
-				}
-				
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  padding: 13px 0px 20px 0px;
+  position: relative;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ccc;
+  background-image: -webkit-linear-gradient(white, #f8f8f8);
+  min-height: 100px;
+  margin-top: 10px;
+  /*box-shadow: 0 2px 5px rgba(182, 182, 182, 0.35);*/
+}
+
 .box .company::before {
-	-webkit-box-shadow: inset 0 16px 8px -20px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: inset 0 15px 8px -20px rgba(0, 0, 0, 0.4);
-	-webkit-mask-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), black 20%, black 80%, rgba(0, 0, 0, 0) 100%);
-	-moz-mask-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), black 20%, black 80%, rgba(0, 0, 0, 0) 100%);
-	height: 5px;
-	width: 100%;
-	position: relative;
-	content: '';
-	top: -2px;
-	left: 0;
-	display: block;
-	border-top: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: inset 0 16px 8px -20px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0 15px 8px -20px rgba(0, 0, 0, 0.4);
+  -webkit-mask-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), black 20%, black 80%, rgba(0, 0, 0, 0) 100%);
+  -moz-mask-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), black 20%, black 80%, rgba(0, 0, 0, 0) 100%);
+  height: 5px;
+  width: 100%;
+  position: relative;
+  content: '';
+  top: -2px;
+  left: 0;
+  display: block;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .head h3 {
-	margin: 0;
-	font-size: 18px;
-	font-weight: 600;
-	color: #ed5456;
-	text-align: left;
-	margin-bottom: 0;
-	line-height: 22px;
-	font-family: "lato" sans-serif;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ed5456;
+  text-align: left;
+  margin-bottom: 0;
+  line-height: 22px;
+  font-family: "lato" sans-serif;
 }
 
 .head p {
-	font-size: 13px;
-	color: #999;
-	font-family: "lato" sans-serif;
+  font-size: 13px;
+  color: #999;
+  font-family: "lato" sans-serif;
 }
 
 .avatar {
-	padding: 0px 14px 15px 14px;
-	float:left;
+  padding: 0px 14px 15px 14px;
+  float:left;
 }
 
 .meta {
- float: left;
- padding-top: 6px;
+  float: left;
+  padding-top: 6px;
 }
 
 .name {
-	color: #111111;
+  color: #111111;
 }
 
 .company p {
-	margin: 7px 15px 10px 19px;
-	font-family: "lato" sans-serif;
+  margin: 7px 15px 10px 19px;
+  font-family: "lato" sans-serif;
 }
 
 
@@ -101,6 +101,6 @@ ul {
 
 
 .login {
-	max-width: 471px;
-	margin: 0 auto;
+  max-width: 471px;
+  margin: 0 auto;
 }
