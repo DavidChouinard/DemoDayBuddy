@@ -13,11 +13,9 @@ class StartupsController < ApplicationController
   def ping
     @startup = Startup.find(params[:id])
 
-    render :nothing => true
+    PingMailer.ping_startup(@startup).deliver
 
-    #respond_to do |format|
-      #format.json { head :no_content }
-    #end
+    render :nothing => true
   end
 
   # GET /startups/1
