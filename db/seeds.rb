@@ -26,6 +26,6 @@ Startup.create([
 
     ceo_name: 'Phil Fremont-Smith',
     ceo_email: 'phil@impulsesave.com',
-    ceo_avatar_path: 'assets/avatars/ImpulseSave_Phil.jpg',
+    ceo_avatar_path: '/assets/ovuline.png',
   }
 ])
