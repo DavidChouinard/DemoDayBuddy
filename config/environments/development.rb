@@ -1,8 +1,17 @@
 DemoDayBudy::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
-  config.action_mailer.delivery_method = :sendmail
-  config.action_mailer.perform_deliveries = true
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :user_name => "TechStars",
+    :password => "F4:f*rWi6",
+    :domain => "techstars.com",
+    :address => "smtp.sendgrid.net",
+    :port => 587,
+    :authentication => :plain,
+    :enable_starttls_auto => true
+  }
+
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
   # In the development environment your application's code is reloaded on
