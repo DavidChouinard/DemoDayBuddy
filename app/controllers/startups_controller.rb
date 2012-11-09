@@ -30,4 +30,27 @@ class StartupsController < ApplicationController
 
     render :nothing => true
   end
+
+  def follow
+    @startup = Startup.find(params[:id])
+
+    if user_signed_in?
+      #angel_response = Net::HTTP.post_form(URI.parse("https://api.angel.co/follows"), {"access_token" => current_user.token, "type" => "startup", "id" =>  @startup.angellist_id})
+
+      angel_api = Net::HTTP.new("api.angel.co")
+      angel_api.use_ssl = true
+      angel_api.verify_mode = OpenSSL::SSL::VERIFY_NONE
+
+      request = Net::HTTP::Post.new("/1/follows")
+      request.set_form_data({"access_token" => current_user.token, "type" => "startup", "id" =>  @startup.angellist_id})
+      angel_response = angel_api.request(request)
+
+      puts angel_response
+      puts angel_response.body
+    else
+      response.status = 403
+    end
+
+    render :nothing => true
+  end
 end

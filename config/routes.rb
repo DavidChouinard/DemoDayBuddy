@@ -5,6 +5,7 @@ DemoDayBudy::Application.routes.draw do
   root :to => 'startups#index'
 
   match 'startups/:id/ping' => 'startups#ping', :via => :post, :as => :ping
+  match 'startups/:id/follow' => 'startups#follow', :via => :post, :as => :follow
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

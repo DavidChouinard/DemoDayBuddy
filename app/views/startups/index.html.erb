@@ -20,7 +20,10 @@
       <% else %>
         <button class="btn btn-success ping" type="button" data-startup-id="<%= startup.id %>">Reach out</button>
       <% end %>
-      <button class="btn angel" type="button" data-startup-id="<%= startup.id %>">Follow</button>
+
+      <% if not startup.angellist_id.nil? %>
+        <button class="btn angel" type="button" data-startup-id="<%= startup.id %>">Follow</button>
+      <% end %>
       <!-- <p>or email <a href="mailto:<%= startup.ceo_email %>"><%= startup.ceo_email %></a></p> -->
     </div>
   </div>

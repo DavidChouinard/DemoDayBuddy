@@ -13,6 +13,7 @@ Startup.create([
     pitch: 'BetterFit Technologies is committed to facilitating data-driven healthcare decisions for patients and providers.',
     email: 'chouichoui@me.com',
     pitch_time: Time.new(2012, 11, 7, 13, 30),
+    angellist_id: 79995,
 
     ceo_name: 'Julia Winn',
     ceo_email: 'julia@betterfit.com',
