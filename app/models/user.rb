@@ -6,8 +6,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :provider, :uid, :remember_me, :name, :byline
-  # attr_accessible :title, :body
+  attr_accessible :email, :password, :password_confirmation, :provider, :uid, :remember_me, :name, :byline, :token, :angellist_url, :twitter_url, :linkedin_url, :avatar
 
   has_many :user_pings
 
@@ -15,14 +14,21 @@ class User < ActiveRecord::Base
     user = User.where(:provider => auth.provider, :uid => auth.uid).first
 
     unless user
-      user = User.create(name: auth.extra.raw_info.name,
+      user = User.create(name: auth.info.name,
                          provider: auth.provider,
                          uid: auth.uid,
+                         token: auth.credentials.token,
+                         password: Devise.friendly_token[0,20],
                          email: auth.info.email,
-                         password: Devise.friendly_token[0,20]
+                         byline: auth.info.bio,
+                         angellist_url: auth.info.angellist_url,
+                         twitter_url: auth.info.twitter_url == "" ? nil : auth.info.twitter_url,
+                         linkedin_url: auth.info.linkedin_url == "" ? nil : auth.info.linkedin_url,
+                         avatar: auth.info.image,
                         )
     end
 
     user
   end
+
 end

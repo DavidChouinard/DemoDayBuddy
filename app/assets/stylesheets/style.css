@@ -17,6 +17,11 @@ ul {
   padding: 21px 0px 10px 0px;
   opacity: 0.51;
 }
+.alert {
+  width: 94%;
+  margin: 20px auto 15px;
+  box-sizing: border-box;
+}
 
 .box {
   display: block;
