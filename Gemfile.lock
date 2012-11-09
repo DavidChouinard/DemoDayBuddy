@@ -1,10 +1,10 @@
 GIT
-  remote: git://github.com/railsjedi/omniauth-angellist.git
-  revision: 5ac3fb77130ad375e4957665abc06156bcf12855
+  remote: git://github.com/codequest-eu/omniauth-angellist.git
+  revision: b970a2bc834b35980b0a81162e0d367df880a69b
   specs:
-    omniauth-angellist (1.0.0)
+    omniauth-angellist (0.0.3)
       omniauth (~> 1.0)
-      omniauth-oauth2 (~> 1.0)
+      omniauth-oauth2 (~> 1.1)
 
 GEM
   remote: https://rubygems.org/
