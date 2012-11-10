@@ -2,7 +2,7 @@ class StartupsController < ApplicationController
   # GET /startups
   # GET /startups.json
   def index
-    @startups = Startup.all
+    @startups = Startup.order("pitch_time ASC")
 
     # Fetch the current follows if the user is signed in throught AngelList
     if user_signed_in? and current_user.uid

@@ -12,7 +12,7 @@ Startup.create([
   { name: 'Better Fit Technologies',
     pitch: 'BetterFit Technologies is committed to facilitating data-driven healthcare decisions for patients and providers.',
     email: 'chouichoui@me.com',
-    pitch_time: Time.new(2012, 11, 7, 13, 30),
+    pitch_time: Time.utc(2012, 11, 7, 13, 30),
     angellist_id: 79995,
 
     ceo_name: 'Julia Winn',
@@ -22,10 +22,10 @@ Startup.create([
   { name: 'Ovuline',
     pitch: 'ImpulseSave makes saving money just as impulsive and instantly gratifying as spending it.',
     email: 'chouichoui@me.com',
-    pitch_time: Time.new(2012, 11, 7, 14, 0),
+    pitch_time: Time.utc(2012, 11, 7, 14, 0),
 
-    ceo_name: 'Phil Fremont-Smith',
-    ceo_email: 'phil@impulsesave.com',
+    ceo_name: 'Paris Wallace',
+    ceo_email: 'paris@ovuline.com',
     ceo_avatar_path: '/assets/ovuline.png',
   }
 ])
