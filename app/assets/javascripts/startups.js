@@ -1,6 +1,6 @@
 
 $(function() {
-  $(".box-footer .ping").on("click", function() {
+  $(".box-footer .action-ping").on("click", function() {
     var self = this;
 
     $.ajax({
@@ -11,7 +11,7 @@ $(function() {
     });
   })
 
-  $(".box-footer .angel").on("click", function() {
+  $(".box-footer .action-follow").on("click", function() {
     var self = this;
 
     $.ajax({
