@@ -1,6 +1,5 @@
+<%= render "devise/shared/angellist" %>
 
-
-<div class="login">
 <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
   <div><%= f.label :email %><br />
   <%= f.email_field :email %></div>
@@ -14,7 +13,5 @@
 
   <div><%= f.submit "Sign in" %></div>
 <% end %>
-</div>
-
 
 <%= render "devise/shared/links" %>

@@ -21,8 +21,12 @@
         <button class="btn btn-success ping" type="button" data-startup-id="<%= startup.id %>">Reach out</button>
       <% end %>
 
-      <% if not startup.angellist_id.nil? %>
-        <button class="btn angel" type="button" data-startup-id="<%= startup.id %>">Follow</button>
+      <% if user_signed_in? and startup.angellist_id %>
+        <% if @follows and @follows.include?(startup.angellist_id) %>
+          <button class="btn angel" type="button" disabled="disabled">Followed ✓</button>
+        <% else %>
+          <button class="btn angel" type="button" data-startup-id="<%= startup.id %>">Follow</button>
+        <% end %>
       <% end %>
       <!-- <p>or email <a href="mailto:<%= startup.ceo_email %>"><%= startup.ceo_email %></a></p> -->
     </div>
