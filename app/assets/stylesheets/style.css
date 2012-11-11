@@ -56,7 +56,9 @@ ul {
 }
 
 .box-active {
-	border: 2px solid #F2DEDE;
+	border: 1px solid rgba(237, 84, 86, 0.49);
+	box-shadow: 0 3px 5px rgba(182, 182, 182, 0.85);
+	border-top: 1px solid rgba(237, 84, 86, 0.39);
 }
 
 .head h3 {
@@ -270,7 +272,6 @@ footer {
 #openclose input {
 	margin: 11px 0px 2px 0px;
 	font-family: "lato", sans-serif;
-	font-weight: 300;
 }
 
 .fullwidth {
@@ -331,10 +332,35 @@ footer {
 
 input::-webkit-input-placeholder {
     color:    #707070;
+    font-family: "lato", sans-serif;
+    font-weight: 300;
 }
 input:-moz-placeholder {
     color:    #707070;
+    font-family: "lato", sans-serif;
+    font-weight: 300;
 }
 input:-ms-input-placeholder {
     color:    #707070;
+    font-family: "lato", sans-serif;
+    font-weight: 300;
 }
+
+#remember_mecheckbox {
+	margin: 0;
+}
+
+#checkbox_label {
+	display: inline;
+	vertical-align: middle;
+	padding-left: 3px;
+}
+
+.sign_in {
+	margin-top: 15px;
+}
+
+-webkit-input-placeholder:focus{
+color: red;
+}
+
