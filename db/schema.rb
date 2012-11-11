@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(:version => 20121109160815) do
     t.string   "name",            :null => false
     t.text     "pitch"
     t.string   "email",           :null => false
-    t.time     "pitch_time",      :null => false
+    t.datetime "pitch_time",      :null => false
     t.string   "ceo_name"
     t.string   "ceo_avatar_path"
     t.datetime "created_at",      :null => false

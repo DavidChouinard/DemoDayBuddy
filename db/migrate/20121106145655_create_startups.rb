@@ -6,7 +6,7 @@ class CreateStartups < ActiveRecord::Migration
 
       t.string :email, :null => false
 
-      t.time :pitch_time, :null => false
+      t.datetime :pitch_time, :null => false
       t.string :ceo_name
       t.string :ceo_avatar_path
 
