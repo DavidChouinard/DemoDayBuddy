@@ -21,7 +21,7 @@
         <button class="btn btn-success action-ping" type="button" data-startup-id="<%= startup.id %>">Reach out</button>
       <% end %>
 
-      <% if user_signed_in? and startup.angellist_id %>
+      <% if user_signed_in? and current_user.uid and startup.angellist_id %>
         <% if @follows and @follows.include?(startup.angellist_id) %>
           <button class="btn action-follow" type="button" disabled="disabled">Followed ✓</button>
         <% else %>
