@@ -1,6 +1,6 @@
 <% @startups.each do |startup| %>
 
-  <div class="box">
+  <div class="box <%= startup["active"] ? 'box-active' : '' %>">
     <div class="head">
       <img src="<%= startup.ceo_avatar_path %>" width="50" height="50" class="avatar" alt="<%= startup.ceo_name %>">
       <div class="meta">

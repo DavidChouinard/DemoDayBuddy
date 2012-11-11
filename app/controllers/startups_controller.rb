@@ -4,13 +4,25 @@ class StartupsController < ApplicationController
   def index
     @startups = Startup.order("pitch_time ASC")
 
+    # This highlights the startup currently presenting
+    # It finds wether the current time is between the given startupa and the next one
+    # If no next startup exists, it defaults to 30mins
+    @startups.each_cons(2) do |startup, next_startup|
+      puts startup.name
+      puts next_startup.name
+      #if next_startup
+        if (startup.pitch_time..next_startup.pitch_time).cover?(DateTime.now.change(:offset => "+0000"))
+          startup["active"] = true;
+          puts "TESTing!"
+        end
+      #end
+    end
+
     # Fetch the current follows if the user is signed in throught AngelList
     if user_signed_in? and current_user.uid
       angel_response = $angel_api.request(Net::HTTP::Get.new("/1/users/#{current_user.uid}/following/ids?type=startup"))
 
-      puts angel_response.code
       if angel_response.code.to_i == 200
-        puts angel_response.body
         @follows = JSON.parse(angel_response.body)["ids"]
       end
     end
