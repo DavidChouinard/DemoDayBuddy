@@ -42,7 +42,7 @@ Startup.create([
     email: 'founders@impulsesave.com',
     pitch_time: Time.utc(2012, 11, 14, 19, 0),
 
-    ceo_name: 'Phil Fremont Smith',
+    ceo_name: 'P Fremont Smith',
     ceo_email: 'phil@impulsesave.com',
     ceo_avatar_path: '/assets/impulsave.png',
   },
