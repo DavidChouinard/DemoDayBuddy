@@ -56,9 +56,9 @@ ul {
 }
 
 .box-active {
-	border: 1px solid rgba(237, 84, 86, 0.49);
-	box-shadow: 0 3px 5px rgba(182, 182, 182, 0.85);
-	border-top: 1px solid rgba(237, 84, 86, 0.39);
+  border: 1px solid rgba(237, 84, 86, 0.49);
+  box-shadow: 0 3px 5px rgba(182, 182, 182, 0.85);
+  border-top: 1px solid rgba(237, 84, 86, 0.39);
 }
 
 .head h3 {
@@ -172,23 +172,23 @@ footer {
 
 
 .connectbutton {
-	  /* IE10 Consumer Preview */ 
-	background-image: -ms-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
-	
-	/* Mozilla Firefox */ 
-	background-image: -moz-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
-	
-	/* Opera */ 
-	background-image: -o-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
-	
-	/* Webkit (Safari/Chrome 10) */ 
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #53A6D6), color-stop(1, #285BAF));
-	
-	/* Webkit (Chrome 11+) */ 
-	background-image: -webkit-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
-	
-	/* W3C Markup, IE10 Release Preview */ 
-	background-image: linear-gradient(to bottom, #53A6D6 0%, #285BAF 100%);
+  /* IE10 Consumer Preview */ 
+  background-image: -ms-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
+
+  /* Mozilla Firefox */ 
+  background-image: -moz-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
+
+  /* Opera */ 
+  background-image: -o-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
+
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #53A6D6), color-stop(1, #285BAF));
+
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
+
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: linear-gradient(to bottom, #53A6D6 0%, #285BAF 100%);
 
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
   font-size: 18px;
@@ -205,24 +205,24 @@ footer {
 
 .connectbutton:hover {
   background-image: -webkit-linear-gradient(top,#43A1D3 0,#2536A3 100%);
-  
-  	  /* IE10 Consumer Preview */ 
-	background-image: -ms-linear-gradient(top, #43A1D3 0%, #2536A3 100%);
-	
-	/* Mozilla Firefox */ 
-	background-image: -moz-linear-gradient(top, #43A1D3 0%, #2536A3 100%);
-	
-	/* Opera */ 
-	background-image: -o-linear-gradient(top, #43A1D3 0%, #2536A3 100%);
-	
-	/* Webkit (Safari/Chrome 10) */ 
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #43A1D3), color-stop(1, #2536A3));
-	
-	/* Webkit (Chrome 11+) */ 
-	background-image: -webkit-linear-gradient(top, #43A1D3 0%, #2536A3 100%);
-	
-	/* W3C Markup, IE10 Release Preview */ 
-	background-image: linear-gradient(to bottom, #43A1D3 0%, #2536A3 100%);
+
+  /* IE10 Consumer Preview */ 
+  background-image: -ms-linear-gradient(top, #43A1D3 0%, #2536A3 100%);
+
+  /* Mozilla Firefox */ 
+  background-image: -moz-linear-gradient(top, #43A1D3 0%, #2536A3 100%);
+
+  /* Opera */ 
+  background-image: -o-linear-gradient(top, #43A1D3 0%, #2536A3 100%);
+
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #43A1D3), color-stop(1, #2536A3));
+
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-linear-gradient(top, #43A1D3 0%, #2536A3 100%);
+
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: linear-gradient(to bottom, #43A1D3 0%, #2536A3 100%);
 }
 
 .connecttext {
@@ -295,92 +295,87 @@ footer {
 }
 
 .fullwidth {
-	width: 100%;
+  width: 100%;
 }
 
 .fullwidth input {
-	border-radius: 3px;
+  border-radius: 3px;
 }
 
 .alignleft {
-	text-align: left;
-	padding-left: 8px;
-	font-size: 12px;
+  text-align: left;
+  padding-left: 8px;
+  font-size: 12px;
 }
 
 .submitbutton {
-	  /* IE10 Consumer Preview */ 
-	background-image: -ms-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
-	
-	/* Mozilla Firefox */ 
-	background-image: -moz-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
-	
-	/* Opera */ 
-	background-image: -o-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
-	
-	/* Webkit (Safari/Chrome 10) */ 
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #53A6D6), color-stop(1, #285BAF));
-	
-	/* Webkit (Chrome 11+) */ 
-	background-image: -webkit-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
-	
-	/* W3C Markup, IE10 Release Preview */ 
-	background-image: linear-gradient(to bottom, #53A6D6 0%, #285BAF 100%);
+  /* IE10 Consumer Preview */ 
+  background-image: -ms-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
+
+  /* Mozilla Firefox */ 
+  background-image: -moz-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
+
+  /* Opera */ 
+  background-image: -o-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
+
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #53A6D6), color-stop(1, #285BAF));
+
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
+
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: linear-gradient(to bottom, #53A6D6 0%, #285BAF 100%);
 }
 
 #error_explanation {
-	padding: 8px 14px 8px 14px;
-	margin-top: 5px;
-	margin-bottom: 15px;
-	color: #B94A48;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	background-color: #F2DEDE;
-	border: 1px solid #EED3D7;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	line-height: 15px;
-	text-align: center;
-	font-family: "lato", sans-serif;
+  padding: 8px 14px 8px 14px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: #B94A48;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  line-height: 15px;
+  text-align: center;
+  font-family: "lato", sans-serif;
 }
 
 #error_explanation h2 {
-	font-size: 16px;
-	line-height: 18px;
-	font-family: "lato", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "lato", sans-serif;
 }
 
 input::-webkit-input-placeholder {
-    color:    #707070;
-    font-family: "lato", sans-serif;
-    font-weight: 300;
+  color:    #707070;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
 }
 input:-moz-placeholder {
-    color:    #707070;
-    font-family: "lato", sans-serif;
-    font-weight: 300;
+  color:    #707070;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
 }
 input:-ms-input-placeholder {
-    color:    #707070;
-    font-family: "lato", sans-serif;
-    font-weight: 300;
+  color:    #707070;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
 }
 
-#remember_mecheckbox {
-	margin: 0;
+#user_remember_me {
+  margin: 0;
 }
 
 #checkbox_label {
-	display: inline;
-	vertical-align: middle;
-	padding-left: 3px;
+  display: inline;
+  vertical-align: middle;
+  padding-left: 3px;
 }
 
 .sign_in {
-	margin-top: 15px;
+  margin-top: 15px;
 }
-
--webkit-input-placeholder:focus{
-color: red;
-}
-
