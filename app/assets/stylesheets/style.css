@@ -111,6 +111,27 @@ footer {
   text-align: center;
 }
 
+#prompt-signup {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 200px;
+  max-width: 90%;
+  padding-bottom: 40px;
+}
+#prompt-signup-close {
+  padding-right: 10px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+#prompt-signup.fade.in {
+  /* TODO: this is kinda of a hack */
+  top: 280px;
+}
+
 .action-ping {
   min-width: 170px;
   padding: 6px;
@@ -265,13 +286,12 @@ footer {
 
 #openclose {
   display: none;
-  height: 400px;
   padding-top: 15px;
 }
 
 #openclose input {
-	margin: 11px 0px 2px 0px;
-	font-family: "lato", sans-serif;
+  margin: 11px 0px 2px 0px;
+  font-family: "lato", sans-serif;
 }
 
 .fullwidth {
