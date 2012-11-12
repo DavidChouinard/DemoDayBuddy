@@ -28,7 +28,7 @@ Startup.create([
     ceo_avatar_path: '/assets/ovuline.png',
   },
   { name: 'Fetchnotes',
-    pitch: 'Productivity, as simple as a tweet.',
+    pitch: 'We make productivity as simple as a tweet.',
     email: 'alex@fetchnotes.com',
     pitch_time: Time.utc(2012, 11, 14, 18, 0),
     angellist_id: 18966,

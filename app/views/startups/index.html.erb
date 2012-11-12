@@ -14,6 +14,8 @@
         <p><%= startup.pitch %></p>
       </div>
     </div>
+    
+    <div class="responsive-clear"></div>
 
     <div class="box-footer">
       <% if user_signed_in? and @pings.exists?(:startup_id => startup.id) %>

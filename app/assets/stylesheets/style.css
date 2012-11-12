@@ -1,8 +1,7 @@
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) {
-  
+
   .head, .company, .box-footer {
-    width: 33%;
     float: left;
   }
   
@@ -12,7 +11,7 @@
   }
   
   .company p {
-    margin: 3px 0px 10px 0px !important;
+    margin: 6px 0px 10px 0px !important;
   }
   
   .box {
@@ -24,7 +23,9 @@
   }
 
   .box-footer button {
-    margin: 11px 0px 0px 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
   
   .box .company::before {
@@ -32,6 +33,43 @@
   border-top: none !important;
   }
   
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .head {
+    width: 44%;
+  }
+  
+  .company, .box-footer {
+    width: 28%;
+  }
+  
+  .action-follow {
+    min-width: 170px !important;
+    padding: 6px 0px 6px 0px !important;
+    margin-bottom: 10px;
+    margin-top: 10px !important;
+  }
+  
+  .action-ping {
+    margin-top: 0 !important;
+  }
+  
+  .box-footer {
+    padding-bottom: 10px;
+  }
+  
+
+}
+
+@media (min-width: 979px) {
+  .head, .company, .box-footer {
+    width: 33%;
+  }
+  
+  .box-footer button {
+    margin-top: 0px !important;
+  }
   
 }
 
