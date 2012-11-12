@@ -13,6 +13,7 @@ Startup.create([
     pitch: 'Better individual care, personalized medicine for everyone.',
     email: 'julia@betterfit.com',
     pitch_time: Time.utc(2012, 11, 14, 16, 0),
+    angellist_id: 134409,
 
     ceo_name: 'Julia Winn',
     ceo_email: 'julia@betterfit.com',
