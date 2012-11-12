@@ -1,5 +1,5 @@
 class PingMailer < ActionMailer::Base
-  default from: "demoday-noreply@sendgrid.com"
+  default from: "\"TechStars Demo Day\" <demoday-noreply@sendgrid.me>"
 
   def ping_startup(startup)
     @startup = startup
