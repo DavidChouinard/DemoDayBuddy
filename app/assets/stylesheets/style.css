@@ -4,22 +4,22 @@
   .head, .company, .box-footer {
     float: left;
   }
-  
+
   .company {
     text-align: center !important;
     vertical-align: middle !important;
   }
-  
+
   .company p {
     margin: 6px 0px 10px 0px !important;
   }
-  
+
   .box {
-  width: 97% !important;
-  min-height: 50px !important;
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
-  overflow: auto !important;
-  padding: 13px 0px 3px 0px !important;
+    width: 97% !important;
+    min-height: 50px !important;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    overflow: auto !important;
+    padding: 13px 0px 3px 0px !important;
   }
 
   .box-footer button {
@@ -27,38 +27,38 @@
     margin-left: 0px !important;
     margin-right: 0px !important;
   }
-  
+
   .box .company::before {
-  height: auto !important;
-  border-top: none !important;
+    height: auto !important;
+    border-top: none !important;
   }
-  
+
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
   .head {
     width: 40%;
   }
-  
+
   .company, .box-footer {
     width: 30%;
   }
-  
+
   .action-follow {
     min-width: 170px !important;
     padding: 6px 0px 6px 0px !important;
     margin-bottom: 10px;
     margin-top: 10px !important;
   }
-  
+
   .action-ping {
     margin-top: 0 !important;
   }
-  
+
   .box-footer {
     padding-bottom: 10px;
   }
-  
+
 
 }
 
@@ -66,11 +66,11 @@
   .head, .company, .box-footer {
     width: 33%;
   }
-  
+
   .box-footer button {
     margin-top: 0px !important;
   }
-  
+
 }
 
 
@@ -243,10 +243,10 @@ footer {
   background-repeat: no-repeat;
   background-position: right center;
 }
-.action-follow[disabled="disabled"] {
+.action-follow[disabled="disabled"], .action-follow.loading {
   padding: 6px 14px;
 }
-.action-follow[disabled="disabled"]:hover {
+.action-follow[disabled="disabled"]:hover, .action-follow.loading:hover {
   padding: 6px 14px;
   background: #E8E8E8;
 }
