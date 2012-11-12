@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-DemoDayBudy::Application.load_tasks
+DemoDayBuddy::Application.load_tasks

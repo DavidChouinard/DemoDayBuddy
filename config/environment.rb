@@ -2,5 +2,4 @@
 require File.expand_path('../application', __FILE__)
 
 # Initialize the rails application
-DemoDayBudy::Application.initialize!
-
+DemoDayBuddy::Application.initialize!
