@@ -16,11 +16,15 @@ $(function() {
     } else {
       var self = this;
 
+      $(this).addClass('loading').html('<img src="/assets/ajax-loader2.gif" alt="Loading..." />');
+
       $.ajax({
         url: "/startups/" + $(this).attr("data-startup-id") + "/ping",
         type: "POST"
       }).done(function() {
-        $(self).attr("disabled", true);
+        $(self).attr("disabled", true).html('Contact details sent<span class="checkmark">✓</span>')
+      }).fail(function() {
+        $(self).html('Error!')
       });
     }
   })
@@ -32,11 +36,15 @@ $(function() {
     } else {
       var self = this;
 
+      $(this).addClass('loading').html('<img src="/assets/ajax-loader.gif" alt="Loading..." />');
+
       $.ajax({
         url: "/startups/" + $(this).attr("data-startup-id") + "/follow",
         type: "POST"
       }).done(function() {
-        $(self).attr("disabled", true);
+        $(self).attr("disabled", true).html('Followed<span class="checkmark">✓</span>')
+      }).fail(function() {
+        $(self).html('Error!')
       });
     }
   })

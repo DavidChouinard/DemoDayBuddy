@@ -24,7 +24,7 @@
 
       <% if user_signed_in? and current_user.uid and startup.angellist_id %>
         <% if @follows and @follows.include?(startup.angellist_id) %>
-          <button class="btn action-follow" type="button" disabled="disabled"><span class="checkmark">✓</span>Followed</button>
+          <button class="btn action-follow" type="button" disabled="disabled">Followed<span class="checkmark">✓</span></button>
         <% else %>
           <button class="btn action-follow" type="button" data-startup-id="<%= startup.id %>">Follow</button>
         <% end %>
