@@ -84,7 +84,7 @@ Startup.create([
     ceo_avatar_path: '/assets/coachup.png',
   },
   { name: 'Wymsee',
-    pitch: 'Wymsee is digitizing new areas of TV and Film production, revolutionizing how brands influence and measure their reach through media.',
+    pitch: 'Wymsee is digitizing new areas of TV and Film production, unlocking latent value.',
     email: 'founders@wymsee.com',
     pitch_time: Time.utc(2012, 11, 14, 20, 0),
     angellist_id: 132224,
@@ -114,7 +114,7 @@ Startup.create([
   },
   { name: 'Fashion Project',
     pitch: 'Changing the way you give.',
-    email: '',
+    email: 'founders@fashionproject.com',
     pitch_time: Time.utc(2012, 11, 14, 20, 30),
 
     ceo_name: 'Anna Palmer',

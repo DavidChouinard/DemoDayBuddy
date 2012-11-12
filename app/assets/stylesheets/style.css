@@ -37,11 +37,11 @@
 
 @media (min-width: 768px) and (max-width: 979px) {
   .head {
-    width: 44%;
+    width: 40%;
   }
   
   .company, .box-footer {
-    width: 28%;
+    width: 30%;
   }
   
   .action-follow {
