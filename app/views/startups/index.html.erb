@@ -8,10 +8,11 @@
         <p>Pitched by <span class="name"><%= startup.ceo_name %></span> at <span class="name"><%= startup.pitch_time.strftime("%-H:%M") %></span> </p>
       </div>
     </div>
-    <div style="clear:both;"></div>
 
     <div class="company">
-      <p><%= startup.pitch %></p>
+      <div class="verticalmess">
+        <p><%= startup.pitch %></p>
+      </div>
     </div>
 
     <div class="box-footer">

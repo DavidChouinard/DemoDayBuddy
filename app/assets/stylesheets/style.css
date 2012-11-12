@@ -1,3 +1,42 @@
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) {
+  
+  .head, .company, .box-footer {
+    width: 33%;
+    float: left;
+  }
+  
+  .company {
+    text-align: center !important;
+    vertical-align: middle !important;
+  }
+  
+  .company p {
+    margin: 3px 0px 10px 0px !important;
+  }
+  
+  .box {
+  width: 97% !important;
+  min-height: 50px !important;
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  overflow: auto !important;
+  padding: 13px 0px 3px 0px !important;
+  }
+
+  .box-footer button {
+    margin: 11px 0px 0px 0px !important;
+  }
+  
+  .box .company::before {
+  height: auto !important;
+  border-top: none !important;
+  }
+  
+  
+}
+
+
+
 body {
   background-color: #F0F0F0;
   background-size: 100%;
@@ -35,6 +74,12 @@ ul {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ccc;
   background-image: -webkit-linear-gradient(white, #f8f8f8);
+  background-image: -ms-linear-gradient(top, white 0%, #f8f8f8 100%);
+  background-image: -moz-linear-gradient(top, white 0%, #f8f8f8 100%);
+  background-image: -o-linear-gradient(top, white 0%, #f8f8f8 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #f8f8f8));
+  background-image: -webkit-linear-gradient(top, white 0%, #f8f8f8 100%);
+  background-image: linear-gradient(to bottom, white 0%, #f8f8f8 100%);
   min-height: 100px;
   margin-top: 10px;
   /*box-shadow: 0 2px 5px rgba(182, 182, 182, 0.35);*/
@@ -59,6 +104,10 @@ ul {
   border: 1px solid rgba(237, 84, 86, 0.49);
   box-shadow: 0 3px 5px rgba(182, 182, 182, 0.85);
   border-top: 1px solid rgba(237, 84, 86, 0.39);
+}
+
+.head {
+  overflow: auto;
 }
 
 .head h3 {
@@ -102,7 +151,7 @@ ul {
   border-radius: 1px;
   font-weight: 400;
   font-family: "lato", sans-serif;
-  margin-top: 23px;
+  margin-top: 19px;
 }
 
 

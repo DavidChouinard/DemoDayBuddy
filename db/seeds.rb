@@ -38,7 +38,7 @@ Startup.create([
     ceo_avatar_path: '/assets/fetchnotes.png',
   },
   { name: 'ImpulseSave',
-    pitch: 'ImpulseSave has made saving & investing our money as easy & instantly gratifying as spending it. Users already saving $3k a yr and we\'re just getting started.',
+    pitch: 'ImpulseSave has made saving & investing our money as easy & instantly gratifying as spending it.',
     email: 'founders@impulsesave.com',
     pitch_time: Time.utc(2012, 11, 14, 19, 0),
 
@@ -65,11 +65,11 @@ Startup.create([
     ceo_avatar_path: '/assets/careport.png',
   },
   { name: 'Zeppelin',
-    pitch: 'Connecting your cloud applications and team in one place',
+    pitch: 'Connecting your Cloud applications and team in one place.',
     email: 'founders@zeppelin.co',
     pitch_time: Time.utc(2012, 11, 14, 19, 40),
 
-    ceo_name: 'Davorin Gabrovec',
+    ceo_name: 'Anze Vodovnik',
     ceo_email: 'davorin@zepppelin.com',
     ceo_avatar_path: '/assets/zepp.png',
   },
@@ -114,7 +114,7 @@ Startup.create([
   },
   { name: 'Fashion Project',
     pitch: 'Changing the way you give.',
-    email: 'none@example.com',
+    email: '',
     pitch_time: Time.utc(2012, 11, 14, 20, 30),
 
     ceo_name: 'Anna Palmer',
@@ -123,7 +123,7 @@ Startup.create([
   },
   { name: 'Urban Hero',
     pitch: 'Making people jump higher',
-    email: 'none@example.com',
+    email: 'arron@urbanherosports.com',
     pitch_time: Time.utc(2012, 11, 14, 20, 40),
 
     ceo_name: 'Arron Acosta',
