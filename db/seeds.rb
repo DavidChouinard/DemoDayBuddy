@@ -11,7 +11,7 @@ Startup.destroy_all
 Startup.create([
   { name: 'Better Fit Technologies',
     pitch: 'Better individual care, personalized medicine for everyone.',
-    email: 'chouichoui@me.com',
+    email: 'julia@betterfit.com',
     pitch_time: Time.utc(2012, 11, 14, 16, 0),
     angellist_id: 79995,
 
@@ -30,7 +30,7 @@ Startup.create([
   },
   { name: 'Fetchnotes',
     pitch: 'Productivity, as simple as a tweet.',
-    email: '',
+    email: 'alex@fetchnotes.com',
     pitch_time: Time.utc(2012, 11, 14, 18, 0),
     angellist_id: 79995,
     
@@ -40,7 +40,7 @@ Startup.create([
   },
   { name: 'Impulsave',
     pitch: 'ImpulseSave has made saving & investing our money as easy & instantly gratifying as spending it. Users already saving $3k a yr and we\'re just getting started.',
-    email: '',
+    email: 'founders@impulsesave.com',
     pitch_time: Time.utc(2012, 11, 14, 19, 0),
     angellist_id: 79995,
     
@@ -50,7 +50,7 @@ Startup.create([
   },
   { name: 'Dashbell',
     pitch: 'OpenTable for independent hotels.',
-    email: '',
+    email: 'founders@dashbell.com',
     pitch_time: Time.utc(2012, 11, 14, 19, 20),
     angellist_id: 79995,
     
@@ -58,9 +58,9 @@ Startup.create([
     ceo_email: 'paige@dashbell.com',
     ceo_avatar_path: '/assets/bookingmarkets.png',
   },
-  { name: 'Careport Health',
+  { name: 'Careport',
     pitch: 'We find the right post-hospital care for patients.',
-    email: '',
+    email: 'founders@careporthealth.com',
     pitch_time: Time.utc(2012, 11, 14, 19, 30),
     angellist_id: 79995,
     
@@ -70,7 +70,7 @@ Startup.create([
   },
    { name: 'Zeppelin',
     pitch: 'Connecting your cloud applications and team in one place',
-    email: '',
+    email: 'founders@zeppelin.co',
     pitch_time: Time.utc(2012, 11, 14, 19, 40),
     angellist_id: 79995,
     
@@ -80,7 +80,7 @@ Startup.create([
   },
   { name: 'CoachUp',
     pitch: 'CoachUp helps athletes achieve their full potential by connecting them with great private coaches.',
-    email: '',
+    email: 'j@coachup.com',
     pitch_time: Time.utc(2012, 11, 14, 19, 50),
     angellist_id: 79995,
     
@@ -90,7 +90,7 @@ Startup.create([
   },
   { name: 'Wymsee',
     pitch: 'Wymsee is digitizing new areas of TV and Film production, revolutionizing how brands influence and measure their reach through media.',
-    email: '',
+    email: 'founders@wymsee.com',
     pitch_time: Time.utc(2012, 11, 14, 20, 0),
     angellist_id: 79995,
     
@@ -100,7 +100,7 @@ Startup.create([
   },
    { name: 'NBD Nano',
     pitch: 'NBD makes use of a nanoscale surface to enhance water capture from the atmosphere.',
-    email: '',
+    email: 'founders@nbdnano.com',
     pitch_time: Time.utc(2012, 11, 14, 20, 10),
     angellist_id: 79995,
     
@@ -110,7 +110,7 @@ Startup.create([
   },
   { name: 'Saverr',
     pitch: 'Scan your receipt and save over $1000 per year on groceries for what really matters.',
-    email: '',
+    email: 'founders@saverrapp.com',
     pitch_time: Time.utc(2012, 11, 14, 20, 20),
     angellist_id: 79995,
     
@@ -120,7 +120,7 @@ Startup.create([
   },
   { name: 'Fashion Project',
     pitch: 'Changing the way you give.',
-    email: '',
+    email: 'none@example.com',
     pitch_time: Time.utc(2012, 11, 14, 20, 30),
     angellist_id: 79995,
     
@@ -130,7 +130,7 @@ Startup.create([
   },
   { name: 'Urban Hero',
     pitch: 'Making people jump higher',
-    email: '',
+    email: 'none@example.com',
     pitch_time: Time.utc(2012, 11, 14, 20, 40),
     angellist_id: 79995,
     
