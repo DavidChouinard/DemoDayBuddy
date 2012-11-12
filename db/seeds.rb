@@ -59,6 +59,7 @@ Startup.create([
     pitch: 'We find the right post-hospital care for patients.',
     email: 'founders@careporthealth.com',
     pitch_time: Time.utc(2012, 11, 14, 19, 30),
+    angellist_id: 130937,
 
     ceo_name: 'Lissy Hu',
     ceo_email: 'lissy@careporthealth.com',
@@ -107,6 +108,7 @@ Startup.create([
     pitch: 'Scan your receipt and save over $1000 per year on groceries for what really matters.',
     email: 'founders@saverrapp.com',
     pitch_time: Time.utc(2012, 11, 14, 20, 20),
+    angellist_id: 117448,
 
     ceo_name: 'Eyal Yair',
     ceo_email: 'eyal@saverrapp.com',
