@@ -313,7 +313,7 @@ footer {
   line-height: 36px;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
   border-radius: 30px;
-  max-width: 200px;
+  min-width: 200px;
   padding: 4px 19px 4px 19px;
   cursor: pointer;
 }
