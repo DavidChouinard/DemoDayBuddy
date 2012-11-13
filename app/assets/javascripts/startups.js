@@ -22,9 +22,9 @@ $(function() {
         url: "/startups/" + $(this).attr("data-startup-id") + "/ping",
         type: "POST"
       }).done(function() {
-        $(self).attr("disabled", true).html('Contact details sent<span class="checkmark">✓</span>')
+        $(self).attr("disabled", true).removeClass('loading').html('Contact details sent<span class="checkmark">✓</span>')
       }).fail(function() {
-        $(self).html('Error!')
+        $(self).removeClass('loading').html('Error!')
       });
     }
   })
@@ -42,9 +42,9 @@ $(function() {
         url: "/startups/" + $(this).attr("data-startup-id") + "/follow",
         type: "POST"
       }).done(function() {
-        $(self).attr("disabled", true).html('Followed<span class="checkmark">✓</span>')
+        $(self).removeClass('loading').attr("disabled", true).html('Followed<span class="checkmark">✓</span>')
       }).fail(function() {
-        $(self).html('Error!')
+        $(self).removeClass('loading').html('Error!')
       });
     }
   })
