@@ -10,20 +10,20 @@
 
     <div class="fullwidth">
       <div>
-        <%= f.text_field :name, :placeholder => "Name"%>
+        <%= f.text_field :name, :placeholder => "Name", :required => true %>
       </div>
 
       <div>
-        <%= f.text_field :byline, :placeholder => "Byline"%>
+        <%= f.text_field :byline, :placeholder => "Byline", :required => true %>
         <div class="alignleft"><em>eg. Partner, Founders Fund</em></div>
       </div>
 
       <div>
-        <%= f.email_field :email, :placeholder => "Email" %>
+        <%= f.email_field :email, :placeholder => "Email", :required => true  %>
       </div>
 
       <div>
-        <%= f.password_field :password, :placeholder => "Password" %>
+        <%= f.password_field :password, :placeholder => "Password", :required => true  %>
       </div>
     </div>
 
