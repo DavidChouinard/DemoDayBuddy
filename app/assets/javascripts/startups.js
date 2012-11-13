@@ -3,6 +3,9 @@ $(function() {
   // Uncomment this to add popup wall
   //$("#prompt-signup").modal()
 
+  if ($('#openclose #error_explanation').length)
+    $('#openclose').show();
+
   $(".click").click(function () {
     $("#openclose").slideToggle("slow", function(){
       if($('#openclose').is(":visible")){
@@ -52,7 +55,3 @@ $(function() {
 
   $('.alert-success').delay(2500).slideUp('fast', 'swing');
 });
-
-
-
-

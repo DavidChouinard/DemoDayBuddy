@@ -222,15 +222,17 @@ footer {
   max-width: 90%;
   padding-bottom: 40px;
 }
+#prompt-signup {
+  position: fixed;
+}
+
 #prompt-signup-close {
   margin-bottom: 20px;
 }
 #prompt-signup-close button {
   padding-right: 10px;
   padding-top: 4px;
-  padding-bottom: 20px;
 }
-
 #prompt-signup.fade.in {
   /* TODO: this is kinda of a hack */
   top: 280px;
@@ -411,7 +413,6 @@ footer {
   display: none;
   padding-top: 15px;
 }
-
 #openclose input {
   margin: 11px 0px 2px 0px;
   font-family: "lato", sans-serif;
