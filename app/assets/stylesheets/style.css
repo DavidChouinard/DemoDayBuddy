@@ -19,13 +19,12 @@
     min-height: 50px !important;
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
     overflow: auto !important;
-    padding: 13px 0px 3px 0px !important;
+    padding: 13px 0 3px 0 !important;
   }
 
   .box-footer button {
-    margin-bottom: 0px !important;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
+    margin-bottom: 0 !important;
+    margin-right: 0 !important;
   }
 
   .box .company::before {
@@ -46,9 +45,10 @@
 
   .action-follow {
     min-width: 170px !important;
-    padding: 6px 0px 6px 0px !important;
+    padding: 6px 0 6px 0 !important;
     margin-bottom: 10px;
     margin-top: 10px !important;
+    margin-left: 0 !important;
   }
 
   .action-ping {
@@ -59,7 +59,6 @@
     padding-bottom: 10px;
   }
 
-
 }
 
 @media (min-width: 979px) {
@@ -69,6 +68,10 @@
 
   .box-footer button {
     margin-top: 0px !important;
+  }
+
+  .action-follow {
+    margin-left: 7px !important;
   }
 
 }
@@ -231,6 +234,7 @@ footer {
   background-image: url(/assets/angel3.png), -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
   background-repeat: no-repeat;
   background-position: right center;
+  min-width: 98px;
 }
 .action-follow:hover {
   background-image: url(/assets/angel3.png);
@@ -246,7 +250,6 @@ footer {
 }
 .action-follow[disabled="disabled"], .action-follow.loading {
   padding: 6px !important ;
-  min-width: 170px;
 }
 
 .checkmark {
