@@ -1,0 +1,15 @@
+<p>Hi <%= @user.name %>,</p>
+
+<p>Thanks for reaching out to <%= @startup.name %>, your contact info has been sent. You can also reach out directly:</p>
+
+<table>
+  <tr>
+    <td>Company: <%= @startup.name %></td>
+  </tr>
+  <tr>
+    <td>CEO name: <%= @startup.ceo_name %></td>
+  </tr>
+  <tr>
+    <td>Email: <a href="mailto:<%= @startup.ceo_email %>"><%= @startup.ceo_email %></a></td>
+  </tr>
+</table>
