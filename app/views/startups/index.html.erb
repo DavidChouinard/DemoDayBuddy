@@ -5,7 +5,7 @@
       <img src="<%= startup.ceo_avatar_path %>" width="50" height="50" class="avatar" alt="<%= startup.ceo_name %>">
       <div class="meta">
         <h3><%= startup.name %></h3>
-        <p>Pitched by <span class="name"><%= startup.ceo_name %></span><!-- at <span class="name"><%= Rails.env.production? ? "XX:XX" : startup.pitch_time.strftime("%-H:%M") %></span>--> <span class="label label-success">now</span> </p>
+        <p>Pitched by <span class="name"><%= startup.ceo_name %></span><!-- at <span class="name"><%= startup.pitch_time.strftime("%-H:%M") %></span>-->  <%= startup["active"] ? '<span class="label label-success">now</span>'.html_safe : '' %> </p>
       </div>
     </div>
 
