@@ -285,6 +285,8 @@ footer {
 
 
 .connectbutton {
+  background-color: #285BAF;
+
   /* IE10 Consumer Preview */ 
   background-image: -ms-linear-gradient(top, #53A6D6 0%, #285BAF 100%);
 
