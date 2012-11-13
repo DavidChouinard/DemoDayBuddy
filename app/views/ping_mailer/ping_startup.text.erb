@@ -1,10 +1,18 @@
-Hey <%= @startup.ceo_name %>,
+Hi <%= @startup.ceo_name %>,
 
-Somebody is interested in speaking with you. Here are their info details:
+<%= @user.name %> is interested in speaking. Get in touch:
 
 =====================================
-Name:
-Byline:
-Email:
-AngelList profile:
+Name: <%= @user.name %>
+Bio: <%= @user.byline %>
+Email: <%= @user.email %>
+<% if @user.angellist_url %>
+AngelList: <%= @user.angellist_url %>
+<% end %>
+<% if @user.linkedin_url %>
+LinkedIn: <%= @user.linkedin_url %>
+<% end %>
+<% if @user.twitter_url %>
+Twitter: <%= @user.twitter_url %>
+<% end %>
 =====================================

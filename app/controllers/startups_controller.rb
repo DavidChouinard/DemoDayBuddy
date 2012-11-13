@@ -43,7 +43,7 @@ class StartupsController < ApplicationController
       # Make sure the user hasn't already pinged that startup
       unless UserPing.exists?(:startup_id => @startup.id, :user_id => current_user.id)
         if UserPing.create(:startup_id => @startup.id, :user_id => current_user.id)
-          PingMailer.ping_startup(@startup).deliver
+          PingMailer.ping_startup(@startup, current_user).deliver
         end
       end
     else
