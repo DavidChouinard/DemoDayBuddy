@@ -42,6 +42,7 @@ Startup.create([
     pitch: 'ImpulseSave has made saving & investing our money as easy & instantly gratifying as spending it.',
     email: 'founders@impulsesave.com',
     pitch_time: Time.utc(2012, 11, 14, 19, 0),
+    angellist_id: 77179,
 
     ceo_name: 'P Fremont Smith',
     ceo_email: 'phil@impulsesave.com',
