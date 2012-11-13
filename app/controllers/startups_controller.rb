@@ -2,7 +2,12 @@ class StartupsController < ApplicationController
   # GET /startups
   # GET /startups.json
   def index
-    @startups = Startup.order("pitch_time ASC")
+    # TODO: Uncomment this line when ready to unveil the order
+    if Rails.env.production?
+      @startups = Startup.order("RANDOM()")
+    else
+      @startups = Startup.order("pitch_time ASC")
+    end
 
     # This highlights the startup currently presenting
     # It finds wether the current time is between the given startupa and the next one
