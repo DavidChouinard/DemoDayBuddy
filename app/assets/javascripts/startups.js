@@ -1,6 +1,7 @@
 
 $(function() {
-  $("#prompt-signup").modal()
+  // Uncomment this to add popup wall
+  //$("#prompt-signup").modal()
 
   $(".click").click(function () {
     $("#openclose").slideToggle("slow", function(){
