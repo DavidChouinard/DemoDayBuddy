@@ -223,9 +223,12 @@ footer {
   padding-bottom: 40px;
 }
 #prompt-signup-close {
-  padding-right: 10px;
-  margin-top: 4px;
   margin-bottom: 20px;
+}
+#prompt-signup-close button {
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 20px;
 }
 
 #prompt-signup.fade.in {
