@@ -21,8 +21,9 @@ Startup.create([
   },
   { name: 'Ovuline',
     pitch: 'We make babies',
-    email: 'chouichoui@me.com',
+    email: 'founders@ovuline.com',
     pitch_time: Time.utc(2012, 11, 14, 17, 0),
+    angellist_id: 134340,
 
     ceo_name: 'Paris Wallace',
     ceo_email: 'paris@ovuline.com',
@@ -44,7 +45,7 @@ Startup.create([
     pitch_time: Time.utc(2012, 11, 14, 19, 0),
     angellist_id: 77179,
 
-    ceo_name: 'P Fremont Smith',
+    ceo_name: 'P. Fremont Smith',
     ceo_email: 'phil@impulsesave.com',
     ceo_avatar_path: '/assets/impulsave.png',
   },
@@ -52,6 +53,7 @@ Startup.create([
     pitch: 'OpenTable for independent hotels.',
     email: 'founders@dashbell.com',
     pitch_time: Time.utc(2012, 11, 14, 19, 20),
+    angellist_id: 25306,
 
     ceo_name: 'Paige Brown',
     ceo_email: 'paige@dashbell.com',
