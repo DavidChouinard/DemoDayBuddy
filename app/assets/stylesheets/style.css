@@ -502,3 +502,15 @@ input:-ms-input-placeholder {
 .sign_in {
   margin-top: 15px;
 }
+
+.label-success {
+  background-color: #51A351;
+  border-radius: 1px;
+  padding: 0px 4px 1px 4px;
+  margin-left: 3px;
+  margin-bottom: 1px;
+  position: relative;
+  top: -1px;
+}
+
+
