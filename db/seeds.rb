@@ -73,6 +73,7 @@ Startup.create([
     pitch: 'Connecting your Cloud applications and team in one place.',
     email: 'founders@zeppelin.co',
     pitch_time: Time.utc(2012, 11, 14, 19, 40),
+    angellist_id: 27096,
 
     ceo_name: 'Anze Vodovnik',
     ceo_email: 'davorin@zepppelin.com',
@@ -122,6 +123,7 @@ Startup.create([
     pitch: 'Clothing donation has never been this fashionable.',
     email: 'founders@fashionproject.com',
     pitch_time: Time.utc(2012, 11, 14, 20, 30),
+    angellist_id: 137045,
 
     ceo_name: 'Anna Palmer',
     ceo_email: 'anna@fashionproject.com',

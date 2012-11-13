@@ -11,7 +11,7 @@
     <td><div style="margin-bottom: 10px"><i><%= @user.byline %></i></div></td>
   </tr>
   <tr>
-    <td>Email: <%= @user.email %></td>
+    <td>Email: <a href="mailto:<%= @user.email %>"><%= @user.email %></a></td>
   </tr>
 
   <% if @user.angellist_url %>

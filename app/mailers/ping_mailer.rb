@@ -15,8 +15,10 @@ class PingMailer < ActionMailer::Base
     mail(:to => startup.email, :subject => "#{user.name} wants to connect")
   end
 
-  def confirmation_email(user)
+  def confirmation_email(startup, user)
     @startup = startup
-    mail(:to => startup.email, :subject => "#{current_user.name} wants to connect")
+    @user = user
+
+    mail(:to => user.email, :subject => "Confirmation: request sent to #{startup.name}")
   end
 end
