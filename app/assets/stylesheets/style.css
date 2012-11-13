@@ -196,6 +196,7 @@ ul {
 footer {
   font-size: 12px;
   text-align: center;
+  margin: 25px 10px 15px;
 }
 
 #prompt-signup {
