@@ -119,6 +119,7 @@ ul {
   position: relative;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ccc;
+  background-color: white;
   background-image: -webkit-linear-gradient(white, #f8f8f8);
   background-image: -ms-linear-gradient(top, white 0%, #f8f8f8 100%);
   background-image: -moz-linear-gradient(top, white 0%, #f8f8f8 100%);
