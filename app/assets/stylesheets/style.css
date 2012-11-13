@@ -512,4 +512,10 @@ input:-ms-input-placeholder {
   top: -1px;
 }
 
+.links {
+ font-size: 11px;
+ text-align: center;
+ padding-top: 20px;
+}
+
 
