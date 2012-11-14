@@ -220,9 +220,6 @@ footer {
   max-width: 90%;
   padding-bottom: 40px;
 }
-#prompt-signup {
-  position: fixed;
-}
 
 #prompt-signup-close {
   margin-bottom: 20px;
@@ -230,6 +227,7 @@ footer {
 #prompt-signup-close button {
   padding-right: 10px;
   padding-top: 4px;
+  padding-left: 10px;
 }
 #prompt-signup.fade.in {
   /* TODO: this is kinda of a hack */
