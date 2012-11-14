@@ -13,7 +13,7 @@ Startup.create([
   { name: 'Fashion Project',
     pitch: 'Clothing donation has never been this fashionable.',
     email: 'founders@fashionproject.com',
-    pitch_time: Time.utc(2012, 11, 14, 16, 00),
+    pitch_time: Time.utc(2012, 11, 14, 16, 27),
     angellist_id: 137045,
 
     ceo_name: 'Anna Palmer',
@@ -24,7 +24,7 @@ Startup.create([
    { name: 'Zeppelin',
     pitch: 'Connecting your Cloud applications and team in one place.',
     email: 'founders@zeppelin.co',
-    pitch_time: Time.utc(2012, 11, 14, 16, 10),
+    pitch_time: Time.utc(2012, 11, 14, 16, 38),
     angellist_id: 27096,
 
     ceo_name: 'Anze Vodovnik',
@@ -35,7 +35,7 @@ Startup.create([
   { name: 'Ovuline',
     pitch: 'Ovuline makes every pregnancy happy, healthy and easy',
     email: 'founders@ovuline.com',
-    pitch_time: Time.utc(2012, 11, 14, 17, 20),
+    pitch_time: Time.utc(2012, 11, 14, 16, 45),
     angellist_id: 134340,
 
     ceo_name: 'Paris Wallace',
@@ -47,7 +47,7 @@ Startup.create([
   { name: 'ImpulseSave',
     pitch: 'ImpulseSave has made saving & investing our money as easy & instantly gratifying as spending it.',
     email: 'founders@impulsesave.com',
-    pitch_time: Time.utc(2012, 11, 14, 16, 30),
+    pitch_time: Time.utc(2012, 11, 14, 16, 52),
     angellist_id: 77179,
 
     ceo_name: 'P. Fremont Smith',
@@ -58,7 +58,7 @@ Startup.create([
    { name: 'Fetchnotes',
     pitch: 'We make productivity as simple as a tweet.',
     email: 'alex@fetchnotes.com',
-    pitch_time: Time.utc(2012, 11, 14, 16, 40),
+    pitch_time: Time.utc(2012, 11, 14, 16, 59),
     angellist_id: 18966,
 
     ceo_name: 'Alex Schiff',
@@ -69,7 +69,7 @@ Startup.create([
   { name: 'Dashbell',
     pitch: 'OpenTable for independent hotels.',
     email: 'founders@dashbell.com',
-    pitch_time: Time.utc(2012, 11, 14, 16, 50),
+    pitch_time: Time.utc(2012, 11, 14, 17, 6),
     angellist_id: 25306,
 
     ceo_name: 'Paige Brown',
@@ -80,7 +80,7 @@ Startup.create([
   { name: 'Wymsee',
     pitch: 'Wymsee is digitizing new areas of TV and Film production, unlocking latent value.',
     email: 'founders@wymsee.com',
-    pitch_time: Time.utc(2012, 11, 14, 17, 0),
+    pitch_time: Time.utc(2012, 11, 14, 17, 13),
     angellist_id: 132224,
 
     ceo_name: 'Alex LoVerde',
@@ -91,7 +91,7 @@ Startup.create([
    { name: 'CoachUp',
     pitch: 'CoachUp helps athletes achieve their full potential by connecting them with great private coaches.',
     email: 'j@coachup.com',
-    pitch_time: Time.utc(2012, 11, 14, 17, 10),
+    pitch_time: Time.utc(2012, 11, 14, 18, 1),
     angellist_id: 25294,
 
     ceo_name: 'Jordan Fliegel',
@@ -102,7 +102,7 @@ Startup.create([
    { name: 'Careport',
     pitch: 'We find the right post-hospital care for patients.',
     email: 'founders@careporthealth.com',
-    pitch_time: Time.utc(2012, 11, 14, 17, 20),
+    pitch_time: Time.utc(2012, 11, 14, 18, 8),
     angellist_id: 130937,
 
     ceo_name: 'Lissy Hu',
@@ -113,7 +113,7 @@ Startup.create([
   { name: 'NBD Nano',
     pitch: 'NBD makes use of a nanoscale surface to enhance water capture from the atmosphere.',
     email: 'founders@nbdnano.com',
-    pitch_time: Time.utc(2012, 11, 14, 17, 30),
+    pitch_time: Time.utc(2012, 11, 14, 18, 15),
     angellist_id: 79995,
 
     ceo_name: 'Miguel Galvez',
@@ -124,7 +124,7 @@ Startup.create([
   { name: 'Saverr',
     pitch: 'Scan your receipt and save over $1000 per year on groceries for what really matters.',
     email: 'founders@saverrapp.com',
-    pitch_time: Time.utc(2012, 11, 14, 17, 40),
+    pitch_time: Time.utc(2012, 11, 14, 18, 22),
     angellist_id: 117448,
 
     ceo_name: 'Eyal Yair',
@@ -135,7 +135,7 @@ Startup.create([
   { name: 'Betterfit Technologies',
     pitch: 'Better individual care, personalized medicine for everyone.',
     email: 'julia@betterfit.com',
-    pitch_time: Time.utc(2012, 11, 14, 17, 50),
+    pitch_time: Time.utc(2012, 11, 14, 18, 29),
     angellist_id: 134409,
 
     ceo_name: 'Julia Winn',
@@ -146,7 +146,7 @@ Startup.create([
   { name: 'Urban Hero',
     pitch: 'Super human movement',
     email: 'arron@urbanherosports.com',
-    pitch_time: Time.utc(2012, 11, 14, 18, 00),
+    pitch_time: Time.utc(2012, 11, 14, 18, 36),
     angellist_id: 77419,
 
     ceo_name: 'Arron Acosta',
