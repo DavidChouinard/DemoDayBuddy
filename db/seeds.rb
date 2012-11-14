@@ -147,6 +147,7 @@ Startup.create([
     pitch: 'Super human movement',
     email: 'arron@urbanherosports.com',
     pitch_time: Time.utc(2012, 11, 14, 18, 00),
+    angellist_id: 77419,
 
     ceo_name: 'Arron Acosta',
     ceo_email: 'arron@urbanherosports.com',
