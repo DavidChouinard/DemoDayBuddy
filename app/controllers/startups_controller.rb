@@ -13,7 +13,7 @@ class StartupsController < ApplicationController
     # It finds wether the current time is between the given startupa and the next one
     # If no next startup exists, it defaults to 30mins
     @startups.each_cons(2) do |startup, next_startup|
-      if (startup.pitch_time..next_startup.pitch_time).cover? DateTime.now.change(:offset => "+0000")
+      if (startup.pitch_time..next_startup.pitch_time).cover? DateTime.now.in_time_zone("EST").change(:offset => "+0000")
         startup["active"] = true;
       end
     end
