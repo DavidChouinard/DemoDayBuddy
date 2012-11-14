@@ -152,10 +152,10 @@ ul {
 }
 
 .box-active {
-  box-shadow: 0 0 13px 0 rgba(182, 182, 182, 0.45);
-  -moz-box-shadow: 0 0 13px 0 rgba(182, 182, 182, 0.45);
-  -webkit-box-shadow: 0 0 13px 0 rgba(182, 182, 182, 0.45);
-  box-shadow: 0 0 13px 0 rgba(182, 182, 182, 0.45);
+  box-shadow: 0 0 9px 0 rgba(182, 182, 182, 0.38);
+  -moz-box-shadow: 0 0 9px 0 rgba(182, 182, 182, 0.38);
+  -webkit-box-shadow: 0 0 9px 0 rgba(182, 182, 182, 0.38);
+  box-shadow: 0 0 9px 0 rgba(182, 182, 182, 0.38);
 }
 
 .head {
