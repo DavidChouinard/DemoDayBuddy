@@ -152,7 +152,10 @@ ul {
 }
 
 .box-active {
-  box-shadow: 0 3px 5px rgba(182, 182, 182, 0.85);
+  box-shadow: 0 0 5px rgba(182, 182, 182, 0.85);
+  -moz-box-shadow: 0 0 5px rgba(182, 182, 182, 0.85);
+  -webkit-box-shadow: 0 0 5px rgba(182, 182, 182, 0.85);
+  box-shadow: 0 0 5px rgba(182, 182, 182, 0.85);
 }
 
 .head {
