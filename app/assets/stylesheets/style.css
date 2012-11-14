@@ -152,9 +152,7 @@ ul {
 }
 
 .box-active {
-  border: 1px solid rgba(237, 84, 86, 0.49);
   box-shadow: 0 3px 5px rgba(182, 182, 182, 0.85);
-  border-top: 1px solid rgba(237, 84, 86, 0.39);
 }
 
 .head {
