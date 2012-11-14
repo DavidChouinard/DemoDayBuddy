@@ -16,7 +16,12 @@ $(function() {
   $(".box-footer .action-ping").on("click", function() {
     if ($("#prompt-signup").length) {
       // User is logged out
-      $("#prompt-signup").modal()
+      // TODO: There's some intractable bug with modal dialogs on iOS 5 and Android. I know, this is a lame fix, but whatever.
+      if (navigator.userAgent.indexOf("Chrome") === -1 && navigator.userAgent.match(/(Android|iPhone OS 5|iPod|iemobile|Windows Phone)/i)) {
+        window.location.href = "/users/sign_up";
+      } else {
+        $("#prompt-signup").modal()
+      }
     } else {
       var self = this;
 
