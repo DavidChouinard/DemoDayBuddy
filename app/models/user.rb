@@ -7,6 +7,7 @@ class User < ActiveRecord::Base
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :provider, :uid, :remember_me, :name, :byline, :token, :angellist_url, :twitter_url, :linkedin_url, :avatar
+  validates_presence_of :name, :byline
 
   has_many :user_pings
 
